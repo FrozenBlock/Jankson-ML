@@ -8,21 +8,12 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/FabricMC/fabric-example-mod"
+        "homepage": "${mod_url}",
+        "sources": "https://github.com/FrozenBlock/Jankson-ML"
     },
     "license": "${license}",
     "icon": "${mod_id}.png",
     "environment": "*",
-    "entrypoints": {
-        "main": [
-          "net.frozenblock.examplemod.ExampleMod"
-        ]
-    },
-    "mixins": [
-        "${mod_id}.mixins.json",
-        "${mod_id}.fabric.mixins.json"
-    ],
     "depends": {
         "fabricloader": ">=${fabric_loader_version}",
         "fabric-api": "*",
