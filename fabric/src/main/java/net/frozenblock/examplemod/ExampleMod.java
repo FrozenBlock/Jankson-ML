@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package net.frozenblock.examplemod;
 
 import net.fabricmc.api.ModInitializer;
 
